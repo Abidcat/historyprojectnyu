@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    background-image: url(https://assets.onecompiler.app/42uzkgqda/42uzke5ch/old-paper.jpg);
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    /*user-select: none;*/
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 240, 0.8); /* Slightly transparent parchment effect */
+    border-bottom: 2px solid #8B4513;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #8B4513;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 20px;
+    background-color: rgba(255, 255, 240, 0.9);
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #5e4f3a;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 240, 0.8);
+    border-top: 2px solid #8B4513;
+}
+
+footer p {
+    margin: 0;
+    color: #5e4f3a;
+}
+
+
+
+/* General Page Styles */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8B4513;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+blockquote {
+    background-color: #f0e6d6;
+    border-left: 5px solid #8B4513;
+    margin: 20px 0;
+    padding: 15px;
+}
+
+    .back-btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #8B4513;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+    .back-btn:hover {
+        background-color: #5e4f3a;
+    }
